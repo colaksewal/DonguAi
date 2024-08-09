@@ -15,10 +15,6 @@ Projenin çalışabilmesi için aşağıdaki kütüphallerin kurulu olması gere
 - `zeyrek`
 
 Bu kütüphaneleri yüklemek için aşağıdaki komutu kullanabilirsiniz:
-
-```bash
-pip install Flask pandas numpy torch transformers scikit-learn zeyrek
-
 ## Kurulum ve Çalıştırma
 ### 1. DONGUAI-JUPYTER Dosyasını Çalıştırma
 ### DONGUAI-JUPYTER dosyasını indirip zipten çıkardıktan sonra Jupyter Notebook'da çalıştırabilirsiniz. Bu adım,
@@ -31,9 +27,14 @@ pip install Flask pandas numpy torch transformers scikit-learn zeyrek
 
 [Drive Linki](https://drive.google.com/file/d/1Kx2PUP-uc97t17cZRIkJRA5CeyR6UqN7/view?usp=sharing)
 
+```bash
+pip install Flask pandas numpy torch transformers scikit-learn zeyrek
+```
+
 Terminali açın ve gerekli kütüphaneledikten sonra:
 ```bash
 python app.py
+```
 komutunu çalıştırınız. 
 
 
