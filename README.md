@@ -50,5 +50,5 @@ python app.py
 ```
 komutunu çalıştırınız. 
 
-
+[Sunum Linkimiz](https://www.canva.com/design/DAGNWqLdfiA/Ry0tsZqvbdreYeV_yTlTDw/edit?utm_content=DAGNWqLdfiA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
