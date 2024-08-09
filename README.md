@@ -17,8 +17,8 @@ Projenin çalışabilmesi için aşağıdaki kütüphallerin kurulu olması gere
 Bu kütüphaneleri yüklemek için aşağıdaki komutu kullanabilirsiniz:
 ## Kurulum ve Çalıştırma
 ### 1. DONGUAI-JUPYTER Dosyasını Çalıştırma
-### DONGUAI-JUPYTER dosyasını indirip zipten çıkardıktan sonra Jupyter Notebook'da çalıştırabilirsiniz. Bu adım,
-### verilerinizi hazırlamanızı ve modelinizi test etmenizi sağlar.
+DONGUAI-JUPYTER dosyasını indirip zipten çıkardıktan sonra Jupyter Notebook'da çalıştırabilirsiniz. Bu adım,
+verilerinizi hazırlamanızı ve modelinizi test etmenizi sağlar.
 
 [Drive Linki](https://drive.google.com/file/d/1VZr0ak5jEObaCcsqPnopvuQ4fCVvWM_t/view?usp=drive_link)
 
