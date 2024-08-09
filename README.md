@@ -38,7 +38,7 @@ Dosyaları indirmek için aşağıdaki linke tıklayınız.
 ## 2. Flask Uygulamasını Çalıştırma
 DONGUAI-FLASK dosyasını indirip zipten çıkardıktan sonra gerekli kütüphaneleri yükleyip Flask uygulamasını başlatabilirsiniz.İndirmek için aşağıdaki linke tıklayınız.
 
-[DONGUAI-JUPYTER](https://drive.google.com/file/d/1Kx2PUP-uc97t17cZRIkJRA5CeyR6UqN7/view?usp=sharing)
+[DONGUAI-FLASK](https://drive.google.com/file/d/1Kx2PUP-uc97t17cZRIkJRA5CeyR6UqN7/view?usp=sharing)
 
 ```bash
 pip install Flask pandas numpy torch transformers scikit-learn zeyrek
