@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atasözleri Önerici</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Atasözleri Önerici</h1>
+        <form id="quote-form">
+            <textarea id="user-input" placeholder="Metin giriniz..."></textarea>
+            <button type="submit">Önerileri Getir</button>
+        </form>
+        <div id="results" class="result"></div>
+    </div>
+    <script>
+        document.getElementById('quote-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const userInput = document.getElementById('user-input').value;
+
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ text: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '';
+                data.forEach(quote => {
+                    const quoteDiv = document.createElement('div');
+                    quoteDiv.className = 'quote';
+                    quoteDiv.innerHTML = `<strong>Söz:</strong> ${quote.sozum} <br> <strong>Anlamı:</strong> ${quote.anlami}`;
+                    resultsDiv.appendChild(quoteDiv);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
