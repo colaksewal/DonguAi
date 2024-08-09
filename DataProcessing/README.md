@@ -1,4 +1,4 @@
-Türkçe atasözleri ve deyimlerini anlamlarına göre işlemlerden geçirip, kullanıcıdan alınan bir metine en benzer atasözünü bulmayı amaçlıyor. İşlemler şu şekilde özetlenebilir:
+Türkçe atasözleri ve deyimlerini anlamlarına göre işlemlerden geçirip, kullanıcıdan alınan bir metine en benzer atasözünü bulmayı amaçlamaktayız, bu amacımız doğrultusunda yaptığımız işlemler aşağıda yer almaktadır. 
 
 1. **Veri Ön İşleme**:
    - Gereksiz sütunlar kaldırılıyor.
@@ -16,3 +16,7 @@ Türkçe atasözleri ve deyimlerini anlamlarına göre işlemlerden geçirip, ku
 
 5. **En Benzer Sözün Bulunması**:
    - Kosinüs benzerliği kullanılarak en yakın atasözü ve anlamı bulunuyor ve ekrana yazdırılıyor.
+
+
+data_exploration.ipynb datamızın ilk hali hakkında bilgiler içermektedir.
+
